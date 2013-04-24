@@ -20,7 +20,15 @@ development:
   username: postgres
   password: postgres
   host: localhost
+<<<<<<< HEAD
   port: 5432
+=======
+<<<<<<< HEAD
+  port: 5432
+=======
+  port: 5433
+>>>>>>> 8f351fd71df1269a88345a0b2b624b2eafa64380
+>>>>>>> 4ae665daaccac514d22c3d7310e381186227db2c
 
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +56,15 @@ test:
   username: postgres
   password: postgres
   host: localhost
+<<<<<<< HEAD
   port: 5432
+=======
+<<<<<<< HEAD
+  port: 5432
+=======
+  port: 5433
+>>>>>>> 8f351fd71df1269a88345a0b2b624b2eafa64380
+>>>>>>> 4ae665daaccac514d22c3d7310e381186227db2c
 
 production:
   adapter: postgresql
@@ -58,4 +74,12 @@ production:
   username: postgres
   password: postgres
   host: localhost
+<<<<<<< HEAD
   port: 5432
+=======
+<<<<<<< HEAD
+  port: 5432
+=======
+  port: 5433
+>>>>>>> 8f351fd71df1269a88345a0b2b624b2eafa64380
+>>>>>>> 4ae665daaccac514d22c3d7310e381186227db2c

@@ -2,9 +2,15 @@
   <td><%= link_to brand.id, edit_brand_path(brand), :remote => true %></td>
   <td><%= brand.name %></td>
   <td>
+<<<<<<< HEAD
     <%= link_to 'Mostrar', brand, :remote => true, :class => 'btn btn-info' %>
     <%= link_to 'Editar', edit_brand_path(brand), :remote => true,
         :class => 'btn btn-success' %>
+=======
+    <%= link_to 'Mostrar', brand, :remote => true, :class => 'btn btn-default' %>
+    <%= link_to 'Editar', edit_brand_path(brand), :remote => true,
+        :class => 'btn btn-warning' %>
+>>>>>>> 4ae665daaccac514d22c3d7310e381186227db2c
     <%= link_to 'Eliminar', brand, 
         :data => { :confirm => 'Esta Seguro?' },
         :method => :delete, :remote => true, :class => 'btn btn-danger' %>

@@ -3,9 +3,15 @@
   <td><%= product.name %></td>
   <td><%= product.brand_name %></td>
   <td>
+<<<<<<< HEAD
     <%= link_to 'Mostrar', product, :remote => true, :class => 'btn btn-info' %>
     <%= link_to 'Editar', edit_product_path(product), :remote => true,
         :class => 'btn btn-success' %>
+=======
+    <%= link_to 'Mostrar', product, :remote => true, :class => 'btn btn-default' %>
+    <%= link_to 'Editar', edit_product_path(product), :remote => true,
+        :class => 'btn btn-warning' %>
+>>>>>>> 4ae665daaccac514d22c3d7310e381186227db2c
     <%= link_to 'Eliminar', product, 
         :data => { :confirm => 'Esta Seguro?' },
         :method => :delete, :remote => true, :class => 'btn btn-danger' %>

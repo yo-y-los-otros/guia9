@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Proyecto realizado por geraldine Arenas, Yamile Tobon y jersson restrepo
+=======
+>>>>>>> 4ae665daaccac514d22c3d7310e381186227db2c
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
@@ -259,3 +265,7 @@ vendor
   External libraries that the application depends on. Also includes the plugins
   subdirectory. If the app has frozen rails, those gems also go here, under
   vendor/rails/. This directory is in the load path.
+<<<<<<< HEAD
+=======
+>>>>>>> 8f351fd71df1269a88345a0b2b624b2eafa64380
+>>>>>>> 4ae665daaccac514d22c3d7310e381186227db2c
