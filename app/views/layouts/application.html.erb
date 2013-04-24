@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guia9</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<ul  id = "menu" >
+  <li > <%= link_to 'Products', products_path  %></li >
+  <li > <%= link_to 'Brands', brands_path  %> </li >
+</ul >
+<%= yield %>
+
+</body>
+</html>
