@@ -1,0 +1,12 @@
+<%= simple_form_for(@product, :html => { :class => 'form-horizontal' }, :remote => true) do |f| %>
+
+ <%= f.error_notification %>
+
+ <%= f.input :name, :label => "Nombre",  :required => true %>
+ <%= f.input :brand_name, :url => autocomplete_brand_name_products_path, :as => :autocomplete, :id_element => '#id' %> 
+ 
+ <div class="form-actions">
+   <%= f.submit "Guardar", :class => 'btn btn-primary' %>
+   <%= link_to 'Atras', products_path, :class => 'btn btn-default' %>
+ </div>
+<% end %>

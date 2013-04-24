@@ -1,0 +1,12 @@
+<tr id=<%= "brand_#{brand.id}" %>>
+  <td><%= link_to brand.id, edit_brand_path(brand), :remote => true %></td>
+  <td><%= brand.name %></td>
+  <td>
+    <%= link_to 'Mostrar', brand, :remote => true, :class => 'btn btn-default' %>
+    <%= link_to 'Editar', edit_brand_path(brand), :remote => true,
+        :class => 'btn btn-warning' %>
+    <%= link_to 'Eliminar', brand, 
+        :data => { :confirm => 'Esta Seguro?' },
+        :method => :delete, :remote => true, :class => 'btn btn-danger' %>
+  </td>
+</tr>
